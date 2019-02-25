@@ -5,20 +5,40 @@
 // };
 // myFunction();
 
+const myfunction = () => {
+    console.log("function was invoked!");
+};
+myfunction();
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+
+const anotherfunction = () => {
+    return param;
+};
+console.log(anotherfunction());
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+const add = (param1, param2) => {
+    return param1 + param2;
+};
+console.log(add());
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
+
+const subtract = (param1, param2) => {
+    return param1 - param2;
+};
+console.log(subtract());
 
 
 // Stretch
