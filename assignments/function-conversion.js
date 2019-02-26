@@ -15,10 +15,10 @@ myfunction();
 // };
 // anotherFunction("Example");
 
-const anotherfunction = () => {
+const anotherfunction = (param) => {
     return param;
 };
-console.log(anotherfunction());
+console.log(anotherfunction("Example"));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
@@ -28,7 +28,7 @@ console.log(anotherfunction());
 const add = (param1, param2) => {
     return param1 + param2;
 };
-console.log(add());
+console.log(add(1, 2));
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
@@ -38,7 +38,7 @@ console.log(add());
 const subtract = (param1, param2) => {
     return param1 - param2;
 };
-console.log(subtract());
+console.log(subtract(1, 2));
 
 
 // Stretch
